@@ -1,0 +1,19 @@
+{
+  "name": "coffee-metal-code",
+  "version": "1.0.0",
+  "description": "Front page for coffee | metal | code on the web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbstocker/coffee-metal-code.git"
+  },
+  "author": "coffee | metal | code",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbstocker/coffee-metal-code/issues"
+  },
+  "homepage": "https://github.com/dbstocker/coffee-metal-code#readme"
+}
