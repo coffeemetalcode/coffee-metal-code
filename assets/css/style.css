@@ -22,6 +22,7 @@
     12. Contact CSS
     13. Widgets CSS
     14. Footer CSS
+    15. Component Box CSS
 
 -----------------------------------------------------------------------------------*/
 /*----------------------------------------*/
@@ -3448,4 +3449,20 @@ blockquote p {
 
 .copyright p a:hover {
   text-decoration: underline;
+}
+
+/*----------------------------------------*/
+/*  15. Component Box CSS
+/*----------------------------------------*/
+
+.outer-component {
+  border: 4px solid purple;
+}
+
+.inner-component {
+  border: 2px solid blue;
+}
+
+.innner-component {
+  border: 2px solid red;
 }
