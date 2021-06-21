@@ -1042,13 +1042,13 @@ blockquote p {
 }
 
 /*Header Logo*/
-.header-logo {
+/* .header-logo {
   margin: 20px 0;
 }
 
 .header-logo a img {
   max-width: 100%;
-}
+} */
 
 /*Main Menu*/
 .main-menu nav > ul {
