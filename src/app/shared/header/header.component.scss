@@ -1,0 +1,38 @@
+.header-logo {
+  margin: 20px 0;
+  border: 2px solid pink;
+}
+
+.header-logo a img {
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-logo {
+    max-height: 41px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header-logo {
+    max-height: 32.8px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header-logo {
+    max-height: 29.52px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .header-logo {
+    max-height: 24.6px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .header-logo {
+    max-height: 19.68;
+  }
+}
