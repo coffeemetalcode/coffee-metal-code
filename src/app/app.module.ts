@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +10,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { BannerComponent } from './shared/banner/banner.component';
 import { BlogComponent } from './blog/blog.component';
+import { SkillsWrapperComponent } from './shared/skills/skills-wrapper.component';
+import { SkillComponent } from './shared/skills/skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { BlogComponent } from './blog/blog.component';
     PortfolioComponent,
     FooterComponent,
     BannerComponent,
-    BlogComponent
+    BlogComponent,
+    SkillsWrapperComponent,
+    SkillComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
