@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
+import { Skill } from '../skill';
 
 @Component({
   selector: 'app-skill',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skill.component.scss']
 })
 export class SkillComponent implements OnInit {
+  // @Input() skill: Skill;
+  percent = 90;
 
   constructor() { }
 

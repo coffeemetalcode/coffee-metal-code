@@ -1,5 +1,21 @@
-<!--Skill Start-->
-<div class="col-xl-5 col-sm-6 col-12 mb-35">
-  <app-skill></app-skill>
+<div id="scroll-container" (window:scroll)="onWindowScroll($event)">
+  <div class="col-lg-7 col-12 mb-50" style="border: 2px solid red;">
+    <div class="row justify-content-start justify-content-lg-around mbn-35">
+      <!--Skill Start-->
+      <div class="col-xl-5 col-sm-6 col-12 mb-35">
+        <!-- <app-skill
+          *ngFor="let skill of skills; index as i"></app-skill> -->
+          <div class="skill" *ngFor="let skill of skills">
+            <h6 class="title">{{ skill.skill }}</h6>
+            <div class="progress">
+              <!-- <div class="progress-bar" [attr.data-value]="skill.proficiency + '%'"></div> -->
+              <div class="progress-bar" data-value="100%"></div>
+            </div>
+          </div>
+      </div>
+      <!--Skill End-->
+    </div>
+  </div>
 </div>
-<!--Skill End-->
+
+

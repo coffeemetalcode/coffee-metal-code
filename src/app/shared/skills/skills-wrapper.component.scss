@@ -1,0 +1,29 @@
+/*Skills*/
+.skill .title {
+  font-weight: 700;
+  line-height: 1;
+}
+
+.skill .progress {
+  border-radius: 50px;
+  background-color: #ececec;
+  height: 8px;
+  overflow: visible;
+}
+
+.skill .progress .progress-bar {
+  border-radius: 50px;
+  background-color: #151515;
+  position: relative;
+}
+
+.skill .progress .progress-bar::before {
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+  content: attr(data-value);
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700;
+  color: #151515;
+}
