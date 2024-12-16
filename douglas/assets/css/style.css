@@ -29,7 +29,8 @@
 /*  01. Theme default CSS
 /*----------------------------------------*/
 /*Google Font*/
-@import url("https://fonts.googleapis.com/css?family=BenchNine:300,400,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Philosopher:300,400,700&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /*Common Style*/
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
@@ -47,7 +48,8 @@ body {
   font-style: normal;
   font-weight: 400;
   visibility: visible;
-  font-family: "BenchNine", sans-serif;
+  /* font-family: "Philosopher", sans-serif; */
+  font-family: "Philosopher", sans-serif;
   color: #151515;
   position: relative;
 }
@@ -69,7 +71,7 @@ body::before {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "BenchNine", sans-serif;
+  font-family: "Philosopher", sans-serif;
   color: #151515;
   font-weight: 600;
   margin-top: 0;
